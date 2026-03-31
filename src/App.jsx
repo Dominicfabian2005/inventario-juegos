@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Formulario from './Componentes/form'
 import Lista from './Componentes/Lista'
+import Boton from './Componentes/Boton'
 import './App.css'
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
 
   return (
     <>
-     <Lista/>
+    <Boton/>
+    
+    
     </>
   )
 }
