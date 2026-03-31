@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&display=swap');
+
+#contenedor-lista {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+#contenedor-lista h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(197, 3, 55, 0.8), 0 0 40px rgba(197, 3, 55, 0.4);
+}
+
+#contenedor-lista > span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#tabla-wrapper {
+  overflow-x: auto;
+  border: 1px solid rgba(197, 3, 55, 0.4);
+  border-top: 2px solid #C50337;
+  border-radius: 12px;
+  background: rgba(2, 28, 79, 0.75);
+  backdrop-filter: blur(12px);
+  padding: 8px 0;
+}
+
+#tabla-juegos {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+}
+
+#tabla-juegos thead tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#tabla-juegos th {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#tabla-juegos td {
+  padding: 14px 18px;
+  color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#tabla-juegos tr:last-child td {
+  border-bottom: none;
+}
+
+#tabla-juegos tr:hover td {
+  background: rgba(197, 3, 55, 0.06);
+}
+
+#tabla-juegos td:first-child {
+  color: rgba(197, 3, 55, 0.7);
+  font-weight: 600;
+}
+
+.badge-plataforma {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.badge-genero {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  border: 1px solid rgba(197, 3, 55, 0.5);
+  color: #C50337;
+}
+
+.badge-estado {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  border: 1px solid;
+}
+
+.badge-estado.disponible {
+  border-color: rgba(129, 199, 132, 0.5);
+  color: #81c784;
+}
+
+.badge-estado.prestado {
+  border-color: rgba(197, 3, 55, 0.5);
+  color: #C50337;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-editar {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-editar:hover {
+  border-color: #C50337;
+  color: #C50337;
+}
+
+.btn-eliminar {
+  background: transparent;
+  border: 1px solid rgba(197, 3, 55, 0.4);
+  color: #C50337;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-eliminar:hover {
+  background: rgba(197, 3, 55, 0.1);
+}
