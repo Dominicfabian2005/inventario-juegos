@@ -1,0 +1,50 @@
+#btn-agregar {
+  background: #C50337;
+  border: none;
+  border-bottom: 3px solid #8a0226;
+  color: #fff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+#btn-agregar:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+#btn-volver {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: all 0.2s;
+}
+
+#btn-volver:hover {
+  border-color: #C50337;
+  color: #C50337;
+}
+
+#header-lista {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+#vista-formulario {
+  display: flex;
+  flex-direction: column;
+}
