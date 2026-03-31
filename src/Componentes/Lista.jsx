@@ -41,7 +41,11 @@ function Lista() {
                     ) : (
                       <>
                         <button className="btn-editar" onClick={() => setEditando(true)}>Editar</button>
-                        <button className="btn-eliminar">Eliminar</button>
+                        <button
+                          className="btn-eliminar"
+                          onClick={() => window.confirm("¿Estás seguro de que deseas eliminar este juego?")}>
+                          Eliminar
+                        </button>
                       </>
                     )}
                   </div>
