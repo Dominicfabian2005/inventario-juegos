@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Formulario from './Componentes/form'
+import Lista from './Componentes/Lista'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Formulario/>
+     <Lista/>
     </>
   )
 }
