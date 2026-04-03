@@ -7,15 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=tests/report,reportFilename=reporte tests/*.test.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "mochawesome-report-generator": "^6.3.2",
     "mysql2": "^3.20.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "selenium-webdriver": "^4.41.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
