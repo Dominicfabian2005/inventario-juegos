@@ -1,16 +1,33 @@
-# React + Vite
+Inventario de Videojuegos
+Sistema web CRUD para la gestión y seguimiento de inventario de videojuegos. Permite crear, leer, actualizar y eliminar registros de videojuegos, con autenticación de usuarios y pruebas automatizadas con Selenium.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Tecnologías Utilizadas
 
-Currently, two official plugins are available:
+Frontend: React + Vite
+Backend: Node.js (API REST)
+Testing: Selenium WebDriver
+Linting: ESLint
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##Instalación y Configuración
+Prerrequisitos
 
-## React Compiler
+Node.js v18 o superior
+npm v9 o superior
+(Para pruebas) ChromeDriver compatible con tu versión de Chrome
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##Funcionalidades
+ CRUD de Videojuegos
 
-## Expanding the ESLint configuration
+ Create — Agregar nuevos videojuegos al inventario mediante formulario
+ Read — Listar y visualizar los videojuegos registrados
+ Update — Editar la información de un videojuego existente
+ Delete — Eliminar videojuegos del inventario
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##Otras funcionalidades
+
+ Autenticación de usuarios (Login)
+ Pruebas automatizadas de interfaz con Selenium
+
+
+
+ 
